@@ -24,7 +24,9 @@ driver.implicitly_wait(5)
 for i in range(1,4):
     driver.find_element(By.XPATH, (f'//*[@id="delete-record-{i}"]')).click()
 
+# open csv file
 with open ("data.csv", "r") as f:
+    # output in list data type because of reader() function
     data = csv.reader(f)
   # assume if first row is not actual data, you need to next then.
     next(data)
