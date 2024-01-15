@@ -3,9 +3,9 @@ import time
 from selenium import webdriver
 from selenium.webdriver.firefox.options import Options
 from selenium.webdriver.common.by import By
-from selenium.webdriver.support import expected_conditions as EC
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.common.exceptions import TimeoutException
+#from selenium.webdriver.support import expected_conditions as EC
+#from selenium.webdriver.support.ui import WebDriverWait
+#from selenium.common.exceptions import TimeoutException
 
 # about:profiles -> create new profile -> Root Directory
 # C:/Users/Administrator/AppData/Roaming/Mozilla/Firefox/Profiles/4trbl1o3.automation
